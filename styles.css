@@ -1,0 +1,35 @@
+.grid-div {
+  width: 32%;
+  height: 100px;
+  border: 1px solid black;
+}
+
+body {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+#lt,
+#mt,
+#rt {
+  border-top: none;
+}
+
+#lt,
+#lm,
+#lb {
+  border-left: none;
+}
+
+#lb,
+#mb,
+#rb {
+  border-bottom: none;
+}
+
+#rt,
+#rm,
+#rb {
+  border-right: none;
+}
