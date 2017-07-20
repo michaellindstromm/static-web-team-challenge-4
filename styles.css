@@ -1,13 +1,47 @@
 .grid-div {
+  display: flex;
   width: 32%;
   height: 100px;
   border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+#players {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#x {
+  font-size: 70px;
+  color: red;
+}
+
+#o {
+  font-size: 70px;
+  color: blue;
+}
+
+#player1 h2 {
+  color: red;
+}
+
+#player2 h2 {
+  color: blue;
 }
 
 body {
   display: flex;
-  width: 300px;
-  flex-wrap: wrap;
+
 }
 
 #lt,
